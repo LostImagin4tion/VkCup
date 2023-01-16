@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VkCup</string>
+
+    <!-- WelcomeScreen -->
+    <string name="zen_label">Дзен</string>
+    <string name="empty_screen_header">Здесь так пусто…</string>
+    <string name="empty_screen_desc">Не хотите написать новый пост?</string>
+    <string name="new_post_button">Новый пост</string>
+    <string name="your_posts_header">Ваши посты:</string>
+    <string name="post_item_header">Пост %d (%d интерактивных элементов)</string>
+
+    <!-- WritePostScreen -->
+    <string name="write_post_text_field_default">Что нового?</string>
+    <string name="add_new_content_block_button">Добавить блок</string>
+    <string name="bottom_sheet_header">Интерактивные элементы</string>
+
+    <string name="poll_header">Опрос (Тема: %s)</string>
+    <string name="matching_header">Сопоставление элементов (%d вопросов)</string>
+    <string name="dragging_into_gaps_header">Перетаскивание в пропуски (%d пропусков)</string>
+    <string name="filling_gaps_header">Заполнение пропусков (%d скобок)</string>
+
+
+    <!-- Interactive Elements -->
+    <string name="text">Текст</string>
+    <string name="poll">Опрос</string>
+    <string name="matching">Сопоставление</string>
+    <string name="dragging_into_gaps">Перетаскивание в пропуски</string>
+    <string name="fill_the_gaps">Заполнение пропусков</string>
+    <string name="rating">Оценка</string>
+
+    <!-- NewPollScreen -->
+    <string name="new_poll_header">New Poll</string>
+    <string name="poll_theme">Тема опроса</string>
+    <string name="poll_question_number">Вопрос %d/%d</string>
+    <string name="poll_answer_options">Варианты ответа</string>
+    <string name="add_new_answer_option_button">Добавить вариант</string>
+    <string name="add_new_question_button">Добавить вопрос</string>
+
+    <string name="poll_creation_empty_fields_error">Опрос не должен содержаьть пустых полей. Удалите или заполните их</string>
+    <string name="poll_creation_no_questions_error">Опрос должен содержать хотя бы один вопрос</string>
+    <string name="poll_creation_no_answers_error">Все вопросы должны иметь хотя бы один вариант ответа</string>
+
+    <!-- NewMatchingScreen -->
+    <string name="new_matching_header">Сопоставление</string>
+    <string name="add_matching_button">Добавить новую пару Вопрос-Ответ</string>
+    <string name="matching_question_number">Вопрос %d/%d</string>
+    <string name="answer_header">Ответ</string>
+    <string name="matching_hint">После публикации все вопросы и ответы будут перемешаны</string>
+
+    <string name="matching_creation_no_pairs_error">Сопоставление элементов должно содержать хотя бы одну пару "вопрос-ответ"</string>
+    <string name="matching_creation_empty_fields_error">Сопоставление элементов не должно содержать пустых полей. Удалите или заполните их</string>
+
+    <!-- NewDraggingIntoGapsScreen -->
+    <string name="new_dragging_header">Перетаскивание</string>
+    <string name="add_dragging_variant_button">Добавить новый пропуск</string>
+    <string name="dragging_question_placeholder">Напечатайте здесь предложения</string>
+    <string name="dragging_hint">После публикации этот элемент будет работать как  перетаскивание вариантов из карточек в пропуски в тексте</string>
+
+    <string name="dragging_creation_empty_question_error">Текст вопроса не должен быть пустым</string>
+    <string name="dragging_creation_no_gaps_error">Вы должны отметить хотя бы один пропуск в тексте\n(Выделите текст и нажмите кнопку \"Добавить новый пропуск\")</string>
+
+    <!-- NewFillingGapsScreen -->
+    <string name="new_filling_header">Заполнение пропусков</string>
+    <string name="add_filling_gap_button">Добавить новый пропуск</string>
+    <string name="filling_question_placeholder">Type the sentences there</string>
+    <string name="filling_hint">После публикации этот элемент будет работать как заполнение пропусков в тексте</string>
+
+    <string name="filling_creation_empty_question_error">Текст вопроса не должен быть пустым</string>
+    <string name="filling_creation_no_gaps_error">Вы должны отметить хотя бы один пропуск в тексте\n(Выделите текст и нажмите кнопку \"Добавить новый пропуск\")</string>
+
+    <!-- NewRatingScreen -->
+    <string name="new_rating_header">Рейтинг</string>
+    <string name="add_star_button">Добавить</string>
+    <string name="remove_star_button">Убрать</string>
+    <string name="rating_header">Рейтинг (%d звезд)</string>
+
+    <string name="rating_creation_no_stars_error">Рейтинг должен содержать хотя бы одну звезду</string>
+
+    <!-- MatchingInteractiveElement -->
+    <string name="matching_element_header">Сопоставление элементов</string>
+    <string name="matching_submit">Check</string>
+    <string name="matching_answer_button_default">Выберите ответ</string>
+
+    <!-- DraggingIntoGapsInteractiveElement -->
+    <string name="dragging_into_gaps_element_header">Перетаскивание в пропуски</string>
+    <string name="dragging_answer_options">Варианты ответов</string>
+
+    <!-- FillingGapsInteractiveElement -->
+    <string name="filling_gaps_element_header">Заполните прпоуск</string>
+    <string name="filling_gap_headline">Пропуск %d/%d</string>
+
+</resources>

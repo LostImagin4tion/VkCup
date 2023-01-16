@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">VkCup</string>
+
+    <!-- WelcomeScreen -->
+    <string name="zen_label">Zen</string>
+    <string name="empty_screen_header">It\'s so empty here…</string>
+    <string name="empty_screen_desc">Do you want to write a new post?</string>
+    <string name="new_post_button">New Post</string>
+    <string name="your_posts_header">Your posts:</string>
+    <string name="post_item_header">Post %d (%d interactive elements)</string>
+
+    <!-- WritePostScreen -->
+    <string name="write_post_text_field_default">What\'s new?</string>
+    <string name="add_new_content_block_button">Add Block</string>
+    <string name="bottom_sheet_header">Interactive Elements</string>
+
+    <string name="poll_header">Poll (theme: %s)</string>
+    <string name="matching_header">Matching (%d questions)</string>
+    <string name="dragging_into_gaps_header">Dragging into gaps (%d gaps)</string>
+    <string name="filling_gaps_header">Filling the gaps (%d gaps)</string>
+
+    <!-- Interactive Elements -->
+    <string name="text">Text</string>
+    <string name="poll">Poll</string>
+    <string name="matching">Matching</string>
+    <string name="dragging_into_gaps">Dragging into Gaps</string>
+    <string name="fill_the_gaps">Fill the Gaps</string>
+    <string name="rating">Rating</string>
+    
+    <!-- NewPollScreen -->
+    <string name="new_poll_header">New Poll</string>
+    <string name="poll_theme">Poll Theme</string>
+    <string name="poll_question_number">Question %d/%d</string>
+    <string name="poll_answer_options">Answer Options</string>
+    <string name="add_new_answer_option_button">Add answer option</string>
+    <string name="add_new_question_button">Add question</string>
+
+    <string name="poll_creation_empty_fields_error">Poll should not contain empty text fields. Delete or fill it</string>
+    <string name="poll_creation_no_questions_error">Poll should contain at least one question</string>
+    <string name="poll_creation_no_answers_error">Poll\'s questions should contain at least one answer option</string>
+
+    <!-- NewMatchingScreen -->
+    <string name="new_matching_header">Matching</string>
+    <string name="add_matching_button">Add new question-answer pair</string>
+    <string name="matching_question_number">Question %d/%d</string>
+    <string name="answer_header">Answer</string>
+    <string name="matching_hint">After publishing, all questions and answer will be shuffled</string>
+
+    <string name="matching_creation_no_pairs_error">Matching should contain at least one question-answer pair</string>
+    <string name="matching_creation_empty_fields_error">Matching should not contain empty text fields. Delete or fill it</string>
+
+    <!-- NewDraggingIntoGapsScreen -->
+    <string name="new_dragging_header">Dragging</string>
+    <string name="add_dragging_variant_button">Add new gap</string>
+    <string name="dragging_question_placeholder">Type the sentences there</string>
+    <string name="dragging_hint">After publishing, this element will work like dragging options from cards into gaps in the text</string>
+
+    <string name="dragging_creation_empty_question_error">Question text should not be empty</string>
+    <string name="dragging_creation_no_gaps_error">You should mark at least one gap in the text\n(Highlight text and press \"Add new gap\" button)</string>
+
+    <!-- NewFillingGapsScreen -->
+    <string name="new_filling_header">Filling Gaps</string>
+    <string name="add_filling_gap_button">Add new gap</string>
+    <string name="filling_question_placeholder">Type the sentences there</string>
+    <string name="filling_hint">After publishing, this element will work like filling the gaps from cards with keyboard</string>
+
+    <string name="filling_creation_empty_question_error">Question text should not be empty</string>
+    <string name="filling_creation_no_gaps_error">You should mark at least one gap in the text\n(Highlight text and press \"Add new gap\" button)</string>
+
+    <!-- NewRatingScreen -->
+    <string name="new_rating_header">Rating</string>
+    <string name="add_star_button">Add</string>
+    <string name="remove_star_button">Remove</string>
+    <string name="rating_header">Rating (%d stars)</string>
+
+    <string name="rating_creation_no_stars_error">Rating should contain at least one star</string>
+
+    <!-- MatchingInteractiveElement -->
+    <string name="matching_element_header">Matching Elements</string>
+    <string name="matching_submit">Check</string>
+    <string name="matching_answer_button_default">Choose answer</string>
+
+    <!-- DraggingIntoGapsInteractiveElement -->
+    <string name="dragging_into_gaps_element_header">Drag into the Gaps</string>
+    <string name="dragging_gaps_placeholder" translatable="false">__________</string>
+    <string name="dragging_answer_options">Answer Options</string>
+
+    <!-- FillingGapsInteractiveElement -->
+    <string name="filling_gaps_element_header">Fill in the Gaps</string>
+    <string name="filling_gaps_placeholder" translatable="false">__________</string>
+    <string name="filling_gap_headline">Gap %d/%d</string>
+
+</resources>
